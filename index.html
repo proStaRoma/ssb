@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <!-- react /////////////////////////////////-->
+  <script src="https://nicepage.com/templates/preview/starbucks-coffee-17223?device=desktop"></script>
+  <script src="https://nicepage.com/templates/preview/making-a-difference-for-food-22562?device=desktop"></script>
+  <script src="https://nicepage.com/templates/preview/fresh-tasty-23125?device=desktop"></script>
+  <!-- react /////////////////////////////////-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <!-- gsap//////////////////////////////////////////////////////////////// -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
+  <!-- gsap//////////////////////////////////////////////////////////////// -->
+
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/animate.css" />
+  <link rel="stylesheet" href="./css/animation.css" />
+  <link rel="stylesheet" href="./css/hover.css" />
+  <link rel="stylesheet" href="./css/media.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div id="update__wrapper" class="update__wrapper">
+      <div class="update">
+        <img src="./Svg/update__1.svg" alt="" class="update__img update__img_1" />
+        <img src="./Svg/update__2.svg" alt="" class="update__img update__img_2" />
+        <img src="./Svg/update__3.svg" alt="" class="update__img update__img_3" />
+        <img src="./Svg/update-cross.svg" alt="" class="update__img update__img_4" />
+      </div>
+    </div>
+    <!-- bar -->
+
+    <div class="bar">
+      <a href="" class="bar_a">
+        <li class="barl_ink bar__link_1">
+          <img src="./Svg/bar-search.svg" alt="" />
+        </li>
+      </a><a href="" class="bar_a">
+        <li class="barl_ink bar__link_2">
+          <img src="./Svg/bar-karzina.svg" alt="" />
+        </li>
+      </a><a href="" class="bar_a">
+        <li class="barl_ink bar__link_3">
+          <img src="./Svg/bar-home.svg" alt="" />
+        </li>
+      </a><a href="" class="bar_a">
+        <li class="barl_ink bar__link_4">
+          <img src="./Svg/bar-like.svg" alt="" />
+        </li>
+      </a><a href="" class="bar_a">
+        <li class="barl_ink bar__link_5">
+          <img src="./Svg/bar-user.svg" alt="" />
+        </li>
+      </a>
+    </div>
+
+    <!-- .content -->
+
+    <div class="content">
+      <!-- cap  -->
+      <div class="cap">
+        <div class="logo">
+          <img src="" alt="" />
+        </div>
+        <div class="name-company">
+          <p>SSB CROSS</p>
+        </div>
+      </div>
+
+      <!-- Search -->
+
+      <div class="search">
+        <input type="text" class="search__input" placeholder="Search coss..." />
+        <button class="search__button">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <!-- filter -->
+      <div class="filter__header">
+        <p>Brends</p>
+      </div>
+      <div class="filter__brends">
+        <button class="filter__btn filter__btn-all" data-filter="all">
+          All
+        </button>
+        <button class="filter__btn filter__btn-jordan" data-filter="jordan">
+          <img src="./images/brends__icon/filter_icon-jordan.svg" alt="" />
+        </button>
+        <button class="filter__btn filter__btn-adidas" data-filter="adidas">
+          <img src="./images/brends__icon/filter_icon-adidas.svg" alt="" />
+        </button>
+        <button class="filter__btn filter__btn-nike" data-filter="nike">
+          <img src="./images/brends__icon/filter_icon-nike.svg" alt="" />
+        </button>
+        <button class="filter__btn filter__btn-puma" data-filter="puma">
+          <img src="./images/brends__icon/filter_icon-puma.svg" alt="" />
+        </button>
+        <button class="filter__btn filter__btn-reebok" data-filter="reebok">
+          <img src="./images/brends__icon/filter_icon-reebok.svg" alt="" />
+        </button>
+        <button class="filter__btn filter__btn-vans" data-filter="vans">
+          <img src="./images/brends__icon/filter_icon-vans.svg" alt="" />
+        </button>
+      </div>
+
+      <div class="brends__content">
+        <a href="">
+          <div class="brends_block brends_block-jordan_1 jordan">
+            <div class="brends_block__name">
+              <span>Air Max pegasus 37</span>
+              <p>Jordan</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brends-jordan-1.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-adidas_1 adidas">
+            <div class="brends_block__name">
+              <span>FORUM LOW</span>
+              <p>adidas</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-adidas-1.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="brends_block brends_block-nike_1 nike">
+            <div class="brends_block__name">
+              <span>Air Max 290 red machine</span>
+              <p>nike</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png//brend-nike-1.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="brends_block brends_block-puma_1 puma">
+            <div class="brends_block__name">
+              <span>ST RUNNER V3 NL</span>
+              <p>puma</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-puma-1.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="brends_block brends_block-reebok_1 reebok">
+            <div class="brends_block__name">
+              <span>ST RUNNER V3 NL</span>
+              <p>reebok</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-reebok-1.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="brends_block brends_block-vans_1 vans">
+            <div class="brends_block__name">
+              <span>ST RUNNER V3 NL</span>
+              <p>vans</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-vans-1.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="brends_block brends_block-puma_3 puma">
+            <div class="brends_block__name">
+              <span>SPORT HACKED TRAINERS</span>
+              <p>puma</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-puma-3.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="brends_block brends_block-reebok_2 reebok">
+            <div class="brends_block__name">
+              <span>Reebok Classic Nylon</span>
+              <p>reebok</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-reebok-2.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="brends_block brends_block-vans_2 vans">
+            <div class="brends_block__name">
+              <span>OLD SKOOL PRO</span>
+              <p>vans</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-vans-2.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="brends_block brends_block-adidas_2 adidas">
+            <div class="brends_block__name">
+              <span>X9000L1 </span>
+              <p>adidas</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-adidas-2.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="brends_block brends_block-reebok_5 reebok">
+            <div class="brends_block__name">
+              <span>Zig Kinetica II Edgen</span>
+              <p>reebok</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-reebok-5.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="brends_block brends_block-puma_4 puma">
+            <div class="brends_block__name">
+              <span>SLIPSTREAM LO RETRO TRAINERS</span>
+              <p>puma</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-puma-4.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="brends_block brends_block-nike_2 nike">
+            <div class="brends_block__name">
+              <span>Air Presto x Hello Kitty®</span>
+              <p>nike</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png//brend-nike-2.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-jordan_4 jordan">
+            <div class="brends_block__name">
+              <span>Air Jordan iV</span>
+              <p>Jordan</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brends-jordan-4.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-vans_4 vans">
+            <div class="brends_block__name">
+              <span>OLD SKOOL 36 DX</span>
+              <p>vans</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-vans-4.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-adidas_5 adidas">
+            <div class="brends_block__name">
+              <span>FORUM LOW</span>
+              <p>adidas</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-adidas-5.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-jordan_2 jordan">
+            <div class="brends_block__name">
+              <span>Retro 4 sneakers</span>
+              <p>Jordan</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brends-jordan-2.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-nike_5 nike">
+            <div class="brends_block__name">
+              <span>Nike Air Max 90 G</span>
+              <p>nike</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png//brend-nike-5.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-adidas_3 adidas">
+            <div class="brends_block__name">
+              <span>FORUM EXHIBIT LOW</span>
+              <p>adidas</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-adidas-3.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-reebok_3 reebok">
+            <div class="brends_block__name">
+              <span>Reebok Zig Dynamica</span>
+              <p>reebok</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-reebok-3.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+
+        <a href="">
+          <div class="brends_block brends_block-puma_5 puma">
+            <div class="brends_block__name">
+              <span> V3 MESH TRAINERS</span>
+              <p>puma</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-puma-5.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        
+        <a href="">
+          <div class="brends_block brends_block-vans_5 vans">
+            <div class="brends_block__name">
+              <span>CRUZE TOO CC</span>
+              <p>vans</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-vans-5.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        
+        <a href="">
+          <div class="brends_block brends_block-jordan_5 jordan">
+            <div class="brends_block__name">
+              <span>Air Jordan 1 Mid "Paris" sneakers</span>
+              <p>Jordan</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brends-jordan-5.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="brends_block brends_block-reebok_4 reebok">
+            <div class="brends_block__name">
+              <span>Reebok Royal Complete 3.0</span>
+              <p>reebok</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-reebok-4.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-puma_2 puma">
+            <div class="brends_block__name">
+              <span>FUTURE CAGE TRAINERS</span>
+              <p>puma</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-puma-2.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-nike_4 nike">
+            <div class="brends_block__name">
+              <span>Nike SB Force 58</span>
+              <p>nike</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png//brend-nike-4.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-jordan_3 jordan">
+            <div class="brends_block__name">
+              <span>Air Jordan 3 "Patchwork" sneakers</span>
+              <p>Jordan</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brends-jordan-3.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-adidas_4 adidas">
+            <div class="brends_block__name">
+              <span>GAZELLE</span>
+              <p>adidas</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-adidas-4.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="brends_block brends_block-vans_3 vans">
+            <div class="brends_block__name">
+              <span>SK8-HI REISSUE</span>
+              <p>vans</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png/brend-vans-3.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+
+        <a href="">
+          <div class="brends_block brends_block-nike_3 nike">
+            <div class="brends_block__name">
+              <span>Nike ZoomX Vaporfly Next% 2</span>
+              <p>nike</p>
+            </div>
+            <div class="brends_block_tsena">
+              <p>365.$</p>
+            </div>
+            <div class="brends_block_like">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="brends_block__img">
+              <img src="./images/cross-png//brend-nike-3.png" alt="" />
+            </div>
+          </div>
+        </a>
+
+
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
+
+<!-- animate__animated -->
